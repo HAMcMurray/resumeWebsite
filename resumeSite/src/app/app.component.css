@@ -1,0 +1,35 @@
+#navbar{
+    background-color: #91AF99;
+    height: 120px;
+}
+.links{
+    font-size: 20px;
+    letter-spacing: 0em;
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .25em;
+    padding: 45px;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 31px;
+    padding: 35px; 
+    float:left;
+    color: white;
+}
+li{
+    float: right;
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+#tail{
+    background-color: slategray;
+    height: 200px;
+    float:inline-end;
+}
+.displayPort{
+    float:inline-end;
+}

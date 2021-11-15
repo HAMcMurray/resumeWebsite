@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+*{
+    margin:0;
+    padding:0;
+ }
+.navs{/* Unvisited link  */
+    color:white;
+    text-decoration: none;
+} 
+.navs:visited{/* Visited link    */
+    color:white;
+    text-decoration: none;
+}
+.navs:hover{/* Mouse over link */
+    color: #C3DBCA;
+    text-decoration: none;
+    font-size: 25px;
+}   
+.navs:active{/* Selected link   */
+    color:white;
+    text-decoration: none;
+}  
+html, body { 
+    height: 100%; 
+}
+@media only screen and (max-width: 500px){
+    .navs:hover{/* Mouse over link */
+        color: #C3DBCA;
+        text-decoration: none;
+        font-size: 10px;
+    }   
+}

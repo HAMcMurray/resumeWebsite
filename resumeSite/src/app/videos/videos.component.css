@@ -1,0 +1,10 @@
+/*Videos in center of page*/
+video{
+    width: 60%;
+    margin-left: 20%;
+}
+/*Vidio Viewer*/
+#videodiv{
+    width: 100%;
+    margin-top: 50px;
+}

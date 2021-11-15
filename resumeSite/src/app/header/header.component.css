@@ -1,0 +1,110 @@
+#navbar{
+    background-color: #91AF99;
+    height: 120px;
+}
+.links{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    letter-spacing: 0em;
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .25em;
+    padding: 45px;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 31px;
+    padding: 35px; 
+    float:left;
+    color: white;
+}
+li{
+    float: right;
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px){
+    #navbar{
+        background-color: #91AF99;
+        height: 120px;
+    }
+    .links{
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 20px;
+        letter-spacing: 0em;
+        font-family: Lato;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing: .25em;
+        padding-top: 45px;
+        padding-left: 5px;
+    }
+    h2{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 31px;
+        padding-top: 35px;
+        padding-right: 0px; 
+        float:left;
+        color: white;
+    }
+}
+@media only screen and (max-width: 800px){
+    .links{
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 15px;
+        letter-spacing: 0em;
+        font-family: Lato;
+        font-style: normal;
+        font-size: 10px;
+        letter-spacing: .25em;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    h2{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        padding-top: 10px; 
+        padding-right: 10px;
+        padding-left: 10px;
+        float:left;
+        color: white;
+    }
+    #navbar{
+        background-color: #91AF99;
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .links{
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: 0em;
+        font-family: Lato;
+        font-style: normal;
+        font-size: 10px;
+        letter-spacing: .25em;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    li{
+        padding: 5px;
+    }
+    h2{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        padding-top: 15px; 
+        padding-right: 10px;
+        padding-left: 10px;
+        float:left;
+        color: white;
+    }
+    #navbar{
+        background-color: #91AF99;
+        height: 60px;
+    }
+}

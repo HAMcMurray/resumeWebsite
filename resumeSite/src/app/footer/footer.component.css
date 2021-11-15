@@ -1,0 +1,32 @@
+.footButton{
+    background-color: #ffffff00;
+    border: none;
+    color: black;
+    padding: 10px;
+}
+#foot{
+    padding-left: 50%;
+    padding-right: 40%;
+    width: 9%;
+}
+@media only screen and (max-width: 1200px){
+    #foot{
+        padding-left: 45%;
+        padding-right: 30%;
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    #foot{
+        padding-left: 43%;
+        padding-right: 30%;
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 700px){
+    #foot{
+        padding-left: 40%;
+        padding-right: 30%;
+        width: 30%;
+    }
+}

@@ -1,0 +1,146 @@
+.parallax1{
+  /* The image used */
+  background-image: url('me.jpg');
+
+  /* Full height */
+  height: 340px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  /* The image used */
+  background-image: url('mizzou.jpg');
+
+  /* Full height */
+  height: 340px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+  /* The image used */
+  background-image: url('/assets/me.jpg');
+
+  /* Full height */
+  height: 340px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content{
+  height:200px;
+  background-color:#ffffff00;
+  font-size:36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .25em;
+  padding: 45px;
+  margin-bottom: 15px;
+}
+h1{
+  height:0px;
+  background-color:#ffffff00;
+  font-family: 'Permanent Marker', cursive;
+  font-size:56px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+.break{
+float: right;
+width: 49%;
+}
+.info{
+float: left;
+width: 49%;
+margin-top: 30px;
+padding-left: 25%;
+}
+dt{
+font-size: 30px;
+padding: 10px 5px 5px 5px;
+}
+@media only screen and (max-width: 1200px){
+.content{
+  height:400px;
+  background-color:#ffffff00;
+  font-size:36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .25em;
+  padding: 45px;
+}
+.info{
+  float: left;
+  width: 49%;
+  margin-top: 30px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 900px){
+.content{
+  height:400px;
+  background-color:#ffffff00;
+  font-size:36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .25em;
+  padding: 45px;
+}
+.info{
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+.break{
+  float: right;
+  width: 100%;
+}
+.content{
+  height:600px;
+  background-color:#ffffff00;
+  font-size:36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .25em;
+  padding: 45px;
+}
+.parallax1{
+  height: 0px;
+  background-size: 700px 400px;
+}
+.parallax2{
+  height: 120px;
+  background-size: 700px 400px;
+}
+.parallax3{
+  height: 120px;
+  background-size: 700px 400px;
+}
+#header1{
+  height:0px;
+  width: 0px;
+  font-size: 0px;
+}
+
+}
