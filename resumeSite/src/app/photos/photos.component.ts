@@ -30,7 +30,7 @@ import { Component, ElementRef, OnInit, ViewChild, ViewEncapsulation } from '@an
  <!--Photo Row 3-->
  <div class="rows">
      <div class="gallery">
-         <img src="assets/content/bird.jpg" alt="Boat" (click)="setActiveClass(7)">
+         <img src="assets/content/boat.jpg" alt="Boat" (click)="setActiveClass(7)">
      </div>
      <div class="gallery">
          <img src="assets/content/city.jpg" alt="City" (click)="setActiveClass(8)">
@@ -80,8 +80,8 @@ import { Component, ElementRef, OnInit, ViewChild, ViewEncapsulation } from '@an
      <div class="gallery">
          <img src="assets/content/stairs.jpg" alt="Stairs" (click)="setActiveClass(19)">      
      </div>
-     <div class="gallery">
-         <img src="assets/content/table.jpg" alt="Table" (click)="setActiveClass(20)">       
+     <div class="gallery galleryNeon">
+         <img src="assets/content/neon.jpg" alt="Neon" (click)="setActiveClass(20)">       
      </div>
      <div class="gallery">
          <img src="assets/content/tyler.jpg"  alt="Tyler" (click)="setActiveClass(21)">

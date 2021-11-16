@@ -50,6 +50,15 @@ max-height: 400px;
 overflow: hidden;
 object-fit: scale-down;
 }
+div.galleryNeon img {
+  width: 95%;
+  height: auto;
+  padding: 2.4%;
+  max-height: 400px;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 div.gallery8 img {
 width: 95%;
 height: auto;
@@ -133,7 +142,7 @@ display: inline-block;
   background-image: url(/assets/content/stairs.jpg);
 }
 .active-20{
-  background-image: url(/assets/content/table.jpg);
+  background-image: url(/assets/content/neon.jpg);
 }
 .active-21{
   background-image: url(/assets/content/tyler.jpg);
