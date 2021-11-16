@@ -8,6 +8,15 @@ background-color: white;
 max-height: 300px;
 overflow: hidden;
 }
+div.gallery8 {
+  margin-left: 1.6%;
+  margin-right: 1.6%;
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+  max-height: 600px;
+  overflow: hidden;
+  }
 /*Photo settings for tablets*/
 @media only screen and (max-width: 1200px){
 div.gallery {
@@ -38,6 +47,14 @@ width: 95%;
 height: auto;
 padding: 2.4%;
 max-height: 400px;
+overflow: hidden;
+object-fit: scale-down;
+}
+div.gallery8 img {
+width: 95%;
+height: auto;
+padding: 2.4%;
+max-height: 800px;
 overflow: hidden;
 object-fit: scale-down;
 }
@@ -83,8 +100,7 @@ display: inline-block;
   background-image: url(/assets/content/city.jpg);
 }
 .active-9{
-  background-image: url(/assets/content/danny.jpg);
-  background-size: 40%;
+  background-image: url(/assets/content/cathedral.jpg);
 }
 .active-10{
   background-image: url(/assets/content/flags.jpg);
@@ -122,6 +138,20 @@ display: inline-block;
 .active-21{
   background-image: url(/assets/content/tyler.jpg);
 }
+.active-22{
+  background-image: url(/assets/content/danny.jpg);
+  background-size: 40%;
+}
+.active-23{
+  background-image: url(/assets/content/dogwood.jpg);
+  background-size: 40%;
+}
+.active-24{
+  background-image: url(/assets/content/ivy.jpg);
+  background-size: 40%;
+}
+
+
 .not-active{
   position: fixed;
   z-index: 1000;

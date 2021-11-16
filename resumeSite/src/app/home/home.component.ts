@@ -4,9 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `<div id="videodiv">
-  <video controls>
-      <source src="assets/content/EditReel.mp4" type="video/mp4">
-  </video>
+  <iframe src="https://www.youtube.com/embed/FrIwITzxBT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div>
   <mat-card class="card">
